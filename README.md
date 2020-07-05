@@ -1,0 +1,1 @@
+This is an Interactive Calculator built using JavaScript, CSS and HTML. It can handle all sorts of mathematical operations including recognizing errors within these performed operations.
