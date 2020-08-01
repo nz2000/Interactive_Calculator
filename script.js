@@ -1,9 +1,12 @@
+//initialize the variable and constants:
+
 let operation = [], newvalue = '', oldvalue = '', result = '';
 
 const display = document.querySelector('#display'),
       ongoingvalue = document.querySelector('#ongoing_process'),
       buttons = document.querySelectorAll('button');
 
+//initialize the functions for usage:
 function process() {
   oldvalue = '';
   newvalue = '';
@@ -17,6 +20,8 @@ function process() {
 function attachListener(button) {
   button.addEventListener('click', handleClick);
 };
+
+//set-up initial commands:
 
 function handleClick(event) {
   let e = event.currentTarget;
@@ -98,6 +103,8 @@ function handleFunction(key) {
       break;
   }
 }
+
+//prepare the mathematical functions:
 
 function handleNumbers(num) {
   newvalue += num;
